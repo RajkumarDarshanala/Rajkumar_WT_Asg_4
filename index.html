@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+    <meta name="description" content="This a Semister Regisratin form" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+        td {
+            padding: 10px;
+        }
+        
+        th {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(139, 153, 165);">
+    <h1 style="text-align: center">
+        National Institute of Technology Warangal <br />
+        <small style="font-size: smaller">Warangal-506004, Telangana - India</small
+      >
+    </h1>
+    <p style="font-size: large; text-align: center">
+      <strong>Department of Electronics and Communications Engineering</strong>
+    </p>
+    <h1 style="text-align: center">Registration Form</h1>
+    <fieldset style="text-align: center; width: 40%; margin: 0 30%; padding: 20px">
+        <legend>Personal Information</legend>
+        <label for="fname">First name &nbsp :</label>
+        <input style="width: 200px;" type="text" id="fname" name="fname" value="Raj Kumar" /><br /><br>
+        <label for="lname">Last Name &nbsp :</label>
+        <input style="width: 200px;" type="text" id="lname" name="lname" value="Darshanala" /><br /><br>
+        <label for="email">Email &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : </label>
+        <input style="width: 200px;" type="email" id="email" name="email" value="rd941804@student.nitw.in" /><br><br>
+        <label for="Rlno">Roll No &nbsp &nbsp &nbsp&nbsp: </label>
+        <input style="width: 200px;" type="text" id="Rlno" name="Rlno" value="941804" /><label for="Rlno">
+    </fieldset>
+    <fieldset style="margin: 20px 20px;">
+        <legend>Registration Details</legend> 
+        <table
+        style="margin: 10px 2.5%; font-size: larger; width: 95%"
+        border="1"
+        cellspacing="0">
+        <tr>
+            <th>SI NO</th>
+            <th>Course Name</th>
+            <th>choose or leave</th>
+        </tr>
+        <tr>
+            <td>1. </td>
+            <td>DATA NETWORKS</td>
+            <td style="text-align: center ;">
+                <input 
+                style="width: 20px;height: 20px; " 
+                type="checkbox" id="dn" name="dn" value="dn">
+            </td>
+            
+           
+        </tr>
+        <tr>
+            <td>2. </td>
+            <td>DIGITAL SIGNAL PROCESSING</td>
+            <td style="text-align: center ;">
+                <input 
+                style="width: 20px;height: 20px; " 
+                type="checkbox" id="dsp" name="dsp" value="dsp">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>3. </td>
+            <td> 	INFORMATION THEORY AND CODING</td>
+            <td style="text-align: center ;">
+                <input 
+                style="width: 20px;height: 20px; " 
+                type="checkbox" id="itc" name="itc" value="itc">
+            </td>
+        </tr>
+        <tr>
+            <td>4. </td>
+            <td> 	COMMUNICATION SYSTEMS LAB</td>
+            <td style="text-align: center ;">
+                <input 
+                style="width: 20px;height: 20px; " 
+                type="checkbox" id="cs" name="cs" value="cs">
+            </td>
+        </tr>
+        <tr>
+            <td>5. </td>
+            <td>DATA NETWORKS LAB</td>
+            <td style="text-align: center ;">
+                <input 
+                style="width: 20px;height: 20px; " 
+                type="checkbox" id="dnlab" name="dnlab" value="dnlab">
+            </td>
+        </tr>
+        <tr>
+            <td>6. </td>
+            <td>
+                <label for="open_ele_1">Choose open elective:</label>
+        <select id="open_ele_1" name="open_ele_1 " style=" width: 300px; ">
+                <option value="MM ">marketing and mangement</option>
+                <option value="oops ">Object Oriented Programming Language</option>
+                <option value="CS ">communication systems</option>
+            </select>
+        </td>
+        <td style="text-align: center ;">
+            <input style="width: 20px;height: 20px; " type="checkbox" id="oe" name="oe" value="oe">
+        </td>
+        </tr>
+        <tr>
+            <td>7. </td>
+            <td>
+                <label for="dept_elective_2 ">Choose Department elective:</label>
+                <select id="dept_elective_2 " name="dept_elective_2" style="width: 250px; ">
+                <option value="lpvlsi ">Low Power VLSI</option>
+                <option value="wt ">Web Technology</option>
+            </select>
+            </td>
+            <td style="text-align: center ;">
+                <input style="width: 20px;height: 20px; " type="checkbox" id="de" name="de" value="de">
+            </td>
+        </tr>
+        </table>
+    </fieldset>
+    <input style="width: 150px; height: 40px; margin-left: 45%;" type="submit" value="submit ">
+</body>
+
+</html>
